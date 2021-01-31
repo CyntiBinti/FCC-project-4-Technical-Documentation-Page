@@ -88,8 +88,14 @@ footer {
   height:40px;
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    width: 100%;
+@media (max-width: 750px) {
+  #heading, .nav-link {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  #heading, .nav-link {
+    font-size: 10px;
   }
 }
